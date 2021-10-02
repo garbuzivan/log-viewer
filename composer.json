@@ -1,0 +1,33 @@
+{
+    "name": "garbuzivan/log-viewer",
+    "description": "Log viewer for laravel (by Garbuz Ivan)",
+    "type": "library",
+    "keywords": ["laravel-admin", "log", "viewer"],
+    "homepage": "https://github.com/garbuzivan/log-viewer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "garbuzivan",
+            "email": "i.garbuz@zebrains.team"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GarbuzIvan\\LogViewer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GarbuzIvan\\LogViewer\\LogViewerServiceProvider"
+            ]
+        }
+    }
+}

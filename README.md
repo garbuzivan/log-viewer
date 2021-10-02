@@ -15,7 +15,7 @@ Log viewer for laravel-admin (editor Garbuz Ivan)
 ## Installation
 
 ```
-$ composer require laravel-admin-ext/log-viewer -vvv
+$ composer require garbuzivan/log-viewer -vvv
 
 $ php artisan admin:import log-viewer
 ```
